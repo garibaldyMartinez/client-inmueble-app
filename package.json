@@ -7,13 +7,13 @@
     "build": "npm run buid:dev",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "start:dev":"ng serve --c=dev",
-    "build:dev":"ng buid --c=dev",
-    "start:prod":"ng serve --c=prod",
-    "build:prod":"ng buid --c=prod"
+    "start:dev": "ng serve --c=dev",
+    "build:dev": "ng buid --c=dev",
+    "start:prod": "ng serve --c=prod",
+    "build:prod": "ng buid --c=prod"
   },
   "private": true,
- "dependencies": {
+  "dependencies": {
     "@angular/animations": "^14.1.0",
     "@angular/cdk": "^14.1.0",
     "@angular/common": "^14.1.0",
@@ -49,6 +49,6 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
-    "typescript": "~4.7.2"
+    "typescript": "2.3"
   }
 }
