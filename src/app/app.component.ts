@@ -6,7 +6,7 @@ import { AngularFirestore } from '@angular/fire/compat/firestore';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent  {
   title = 'cli-inmueble-app';
 
   constructor(private ps: AngularFirestore) {}
